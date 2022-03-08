@@ -1,0 +1,128 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #121212
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    box-shadow: black;
+    color: rgb(255, 255, 255);
+    box-sizing: 10px;
+    background-color: #250125;
+    border-radius: 10px 0px 10px 0px;
+}
+@font-face {
+    font-family: PressStart2P-Regular;
+    src: url(../Fonts/PressStart2P-Regular.ttf);
+}
+.container {
+    width: 700px;
+    height: 800px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#250125), to(#910391));
+            background: -moz-linear-gradient(top, #CCCCCC, #000000);
+    margin: auto;
+ 
+    background-color: #e9e9e9;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+footer {
+    font-style: normal;
+    font-size: 15px;
+    margin:20px;
+    text-align: center;
+    font-weight:lighter;
+    border-radius: 3px;
+    color: #f5f5f5;
+}
+
+.inp{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-size: 20px;
+}
+
+.header {
+    padding: 40px;
+}
+
+.titulo-inicio {
+    color: #006666;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(212, 212, 25);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+    font-family: PressStart2P-Regular;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sub-titulo {
+    font-size: 1em;
+    text-indent: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black; 
+}
+
+h1{
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: #f5f5f5;
+}
+
+.box{
+    width: 150px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#023c5e), to(#1a81c5));
+    background: -moz-linear-gradient(top, #CCCCCC, #000000);
+    border-radius: 5px;
+    border-style: double;
+    border-color: #1a81c5;
+}
+
+.img-c{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.box-principal{
+    display: flex;
+    margin: 0 auto;
+    padding:30px;
+    text-align: center;
+    
+}
+
+.form-flex-container {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#690169), to(#250125));
+    background: -moz-linear-gradient(top, #CCCCCC, #000000);
+}
